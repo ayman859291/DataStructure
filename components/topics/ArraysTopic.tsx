@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import InfoCard from '../InfoCard';
 import CodeBlock, { Keyword, StringLiteral, Comment, NumberLiteral, Func } from '../CodeBlock';
@@ -89,7 +90,7 @@ const ArraysTopic: React.FC<ArraysTopicProps> = ({ onStartQuiz }) => {
                 </p>
                 <div className="flex justify-center gap-4 flex-wrap">
                      <button onClick={onStartQuiz} className="bg-gradient-to-r from-green-500 to-teal-500 text-white font-bold py-3 px-6 rounded-full hover:scale-105 transform transition shadow-md">
-                        <span className="mr-2">🧪</span> اختبار شامل (15 سؤال)
+                        <span className="mr-2">🧪</span> اختبار شامل - 15 سؤال
                     </button>
                 </div>
             </header>

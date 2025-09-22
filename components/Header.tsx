@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({ topics, activeTopicId }) => {
               <p className="text-lg sm:text-xl text-slate-500 max-w-4xl mx-auto mb-6">
               _
             </p>  <p className="text-lg sm:text-xl text-slate-500 max-w-4xl mx-auto mb-6">
-               م/أيمن عبدالله عبدالعزيز
+               المهندس: أيمن عبدالله عبدالعزيز
             </p>
                
             <div className="bg-slate-200 rounded-full p-1 max-w-2xl mx-auto">
